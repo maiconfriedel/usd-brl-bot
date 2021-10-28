@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts"
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts"
   },
   "dependencies": {
     "axios": "^0.24.0",
